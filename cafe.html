@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo_cafe.css">
+    <title>Café Starbuzz</title>
+    <!-- Este estilo abaixo controla o tamanho direto no HTML se o arquivo CSS falhar -->
+    <style>
+        .galeria img {
+            width: 150px !important;
+            height: 150px !important;
+            object-fit: cover;
+            margin: 5px;
+            border: 3px solid #6f4e37;
+        }
+        .galeria {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Café Starbuzz</h1>
+    </header>
+
+    <main>
+        <!-- As imagens agora possuem tamanhos controlados diretamente -->
+        <section class="galeria">
+            <img src="cafe1.jpg" alt="Café Mexicano">
+            <img src="cafe2.jpg" alt="Café Expresso">
+            <img src="cafe3.jpg" alt="Capuccino">
+            <img src="cafe4.jpg" alt="Chá Chai">
+        </section>
+
+        <section class="cardapio">
+            <h1>Bebidas do Café Starbuzz</h1>
+            
+            <div class="item">
+                <h2>Mistura da Casa <span>R$ 6,00</span></h2>
+                <p>Uma mistura suave e delicada de Cafés do México, Bolívia e Guatemala.</p>
+            </div>
+            
+            <div class="item">
+                <h2>Café Arábico com leite <span>R$ 7,50</span></h2>
+                <p>Expresso, leite fervido e xarope de chocolate.</p>
+            </div>
+            
+            <div class="item">
+                <h2>Capuccino <span>R$ 8,50</span></h2>
+                <p>Uma mistura de expresso, leite fervido e creme.</p>
+            </div>
+            
+            <div class="item">
+                <h2>Chá Chai <span>R$ 9,00</span></h2>
+                <p>Uma bebida condimentada com chá preto, especiarias, leite e mel.</p>
+            </div>
+        </section>
+
+        <section class="cardapio">
+            <h1>Bolos e Salgados do Café Starbuzz</h1>
+            
+            <div class="item">
+                <h2>Pedaço bolo red velvet <span>R$ 10,00</span></h2>
+                <p>Um bolo feito com massa red velvet fofinha e saborosa.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
